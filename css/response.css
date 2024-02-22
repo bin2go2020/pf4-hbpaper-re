@@ -1,0 +1,115 @@
+@media screen and (max-width:980px){
+  .vh100{
+    min-height: 100%;
+  }
+  .h2 {
+  font-size: calc(60px * 0.7);
+  }
+  .h3{
+  font-size: calc(24px * 0.7);
+  }
+  .h5{
+    font-size: calc(18px * 0.85);
+  }
+  header .wrap{
+    display: none;
+  }
+  header .wrap h1 a{
+    display: none;
+  }
+  header .wrap ul.gnb{
+    
+  display: none;
+  }
+  header .wrap ul.gnb li a{
+ 
+  }
+  header .wrap span.lang{
+    display: none;
+  }
+  .ham{
+  display: flex;
+  }
+  header .wrap .sublist {
+    grid-template-columns: calc((100% - 1520px) / 2) calc(100vw * 0.3) 102px 102px 102px 102px 1fr calc((100% - 1520px) / 2);
+  }
+  header .wrap .sublist div ul.useguide li a{
+  font-size: 14px;
+  }
+/* 타이틀*/
+  #title .wrap h2{
+    
+  display: flex;
+  }
+/*  비디오  */
+  section#promotion .wrap{
+  padding: 0 15px;
+  }
+  section#promotion .wrap iframe{
+    width: calc(100vw - 30px);
+    height: calc(36.25vw - 30px);
+  }
+/* 비즈니스   */
+  section#business .wrap ul{
+
+  }
+  section#business .wrap ul li{
+
+  }
+  section#business .wrap ul li a::before{
+    
+
+  }
+  /* product */
+  section#products .wrap div article figure{
+   
+  }
+  section#products .wrap div article figure img{
+  
+  }
+ /* 뉴스 */
+  section#news{
+    
+  }
+  section#news .wrap{
+ 
+  }
+  section#news .wrap h3{
+
+  }
+  section#news .wrap h3 span{
+    
+  }
+  section#news .wrap p{
+
+  }
+  section#news .wrap ul{
+  
+  }
+  section#news .wrap a.more{
+
+  }
+/*  하단*/
+  footer .wrap{
+
+  }
+  footer .wrap div ul.fnb{
+  display: none;
+  }
+  footer .wrap ul.pnb{
+
+  }
+  footer .wrap div{
+ 
+  }
+  footer .wrap address{
+  font-size: 12px;
+  }
+  footer .wrap p{ 
+  font-size: 12px;
+  }
+  footer .wrap a.blog{
+
+  }
+
+}
